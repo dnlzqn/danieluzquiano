@@ -1,0 +1,148 @@
+.chocolat-overlay {
+    background-color: #161616;
+}
+
+.pencil {
+    width: 7vw;
+}
+
+.dinosaur {
+    background: #1f0047;
+}
+
+.polar {
+    background: #DB0074;
+}
+
+.goma .projects div {
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dinosaur .projects {
+    background: #1f0047;
+}
+
+.goma {
+    background: #d0a615;
+}
+
+.about {
+    background: #09dbbb;
+}
+
+.nft {
+    background: #3f51b5;
+}
+
+.tiny {
+    background: #3828fb;
+}
+
+.fullscreen-bg__video,
+.projects figure {
+    margin: 5rem 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .dinosaur .projects video,
+    .dinosaur .projects img,
+    .polar .projects video,
+    .polar .projects img {
+        margin: 0 auto;
+        width: 90vw;
+    }
+
+    .img_teia a {
+        margin: 10em 0 0 0;
+    }
+
+    .pencil {
+      width: 3vw;
+    }
+}
+
+.abecedario {
+    background: #d3d3d3;
+}
+
+#intro .info h1 {
+    color: white;
+}
+
+.abecedario #intro .info h1 {
+    color: black;
+}
+
+.nft .info p,
+.tiny .info p,
+.about .info p {
+    margin-bottom: 0;
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration-color: white;
+}
+
+.abecedario #intro .info p {
+    color: black;
+}
+
+.abecedario footer {
+  color: black;
+}
+
+a {
+  border-bottom: 0px;
+  display: block;
+}
+
+p a {
+  text-decoration-color: white;
+  display: inline;
+}
+
+.abecedario a {
+  color: black;
+  text-decoration-color: black;
+}
+
+.info svg {
+    fill: white;
+    z-index: 1000;
+}
+
+.social svg {
+  fill: white;
+}
+
+.abecedario .pencil,
+.abecedario .social svg {
+  fill: black;
+}
+
+.abecedario .gif {
+  width: 90%;
+  display: block;
+  margin: 0 0 0 6%;
+}
+
+section {
+    box-shadow: none;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin-top: 0;
+}
