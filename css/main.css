@@ -552,6 +552,10 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
         flex-direction: row;
     }
 
+    .projects {
+        flex-direction: row;
+    }
+
     .fullscreen-bg__video,
     .projects img {
         width: 65vw;
