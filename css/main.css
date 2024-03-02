@@ -79,15 +79,14 @@ body {
 
 a {
     text-decoration: underline;
-    text-decoration-color: rgb(186, 133, 255);
-    //border-bottom: 0.6rem solid black;
+    text-decoration-color: white;
     color: white;
     display: inline-block;
     line-height: 0.9;
 }
 
 a:hover {
-  text-decoration-color: black;
+  text-decoration-color: rgb(186, 133, 255);
 }
 
 a:visited {
