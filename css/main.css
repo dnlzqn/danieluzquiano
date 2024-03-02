@@ -195,7 +195,7 @@ main {
 }
 
 #intro .fullscreen-bg__video {
-    height: max-content;
+/*    height: max-content;*/
 }
 
 .fullscreen-bg__video {
