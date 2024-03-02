@@ -38,13 +38,17 @@
     background: #3f51b5;
 }
 
+.nft .projects a {
+    margin: 4em auto;
+}
+
 .tiny {
     background: #3828fb;
 }
 
 .fullscreen-bg__video,
 .projects figure {
-    margin: 5rem 0 0;
+    margin: 5rem auto 0;
 }
 
 @media only screen and (min-width: 768px) {
