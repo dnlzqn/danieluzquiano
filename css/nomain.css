@@ -35,7 +35,7 @@
 }
 
 .nft {
-    background: #3f51b5;
+    background: #54018a;
 }
 
 .nft .projects a {
@@ -131,12 +131,6 @@ p a {
 .abecedario .pencil,
 .abecedario .social svg {
   fill: black;
-}
-
-.abecedario .gif {
-  width: 90%;
-  display: block;
-  margin: 0 0 0 6%;
 }
 
 section {

@@ -15,7 +15,7 @@ html {
     color: white;
     background: #000000;
     font-family: 'Chivo', sans-serif;
-    font-size: 21.5%;
+    font-size: 23%;
     line-height: 1.4;
 }
 
@@ -183,6 +183,10 @@ main {
     text-decoration: none;
 }
 
+#contenido a {
+    text-decoration: underline;
+}
+
 #symbolSvg {
     position: absolute;
     top: 50px;
@@ -191,9 +195,7 @@ main {
 }
 
 #intro .fullscreen-bg__video {
-    min-width: 100%;
-    width: auto;
-    height: auto;
+    height: max-content;
 }
 
 .fullscreen-bg__video {
@@ -216,6 +218,7 @@ footer section {
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .projects p,
@@ -362,7 +365,7 @@ figure img {
   max-width: none;
   width: -webkit-calc(100%);
   width: calc(100%);
-  opacity: 0.7;
+  opacity: 1;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(1);
@@ -377,12 +380,12 @@ figure figcaption {
 }
 
 figcaption div {
-  width: 60%;
+  width: 90%;
   margin: 2%;
 }
 
 figure h2 {
-    font: 700 5rem/1.1 'Chivo', sans-serif;
+    font: 800 8rem/1 'Chivo', sans-serif;
     color: white;
 }
 
